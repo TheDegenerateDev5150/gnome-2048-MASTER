@@ -51,5 +51,4 @@ test(
   env: cargo_env,
   args: ['test', '--no-fail-fast'] + cargo_options,
   depends: [libgnome_games_support_dependency],
-  timeout: 180
 )
