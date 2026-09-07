@@ -2,17 +2,17 @@
 # Copyright (C) 2026 gnome-2048's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-2048 package.
 # Enrico Nicoletto <liverig@gmail.com>, 2015.
-# Juliano de Souza Camargo <julianosc@pm.me>, 2025-2026.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2015-2026.
+# Juliano de Souza Camargo <julianosc@pm.me>, 2025-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-2048 master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-2048/issues\n"
-"POT-Creation-Date: 2026-03-25 09:15+0000\n"
-"PO-Revision-Date: 2026-04-16 20:15-0300\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Brazilian Portuguese <https://br.gnome.org/traducao>\n"
+"POT-Creation-Date: 2026-04-21 23:13+0000\n"
+"PO-Revision-Date: 2026-09-07 16:29-0300\n"
+"Last-Translator: Juliano de Souza Camargo <julianosc@pm.me>\n"
+"Language-Team: Brazilian Portuguese <https://br.gnome.org/traducao/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -211,6 +211,10 @@ msgstr ""
 msgid "A running game"
 msgstr "Um jogo em progresso"
 
+#: data/org.gnome.TwentyFortyEight.metainfo.xml.in:51
+msgid "Andrey Kutejko"
+msgstr "Andrey Kutejko"
+
 #. Translators: about dialog text; a introduction to the game
 #: src/about.rs:31
 msgid "A clone of 2048 for GNOME"
@@ -240,31 +244,31 @@ msgstr ""
 "Juliano de Souza Camargo <julianosc@pm.me>"
 
 #. Translators: command-line option description
-#: src/application.rs:74
+#: src/application.rs:73
 msgid "Play in the terminal (see \"--cli=help\")"
 msgstr "Joga no terminal (veja “--cli=help”)"
 
 #. Translators: in the command-line options description, text to indicate the user should give a command after '--cli' for playing in the terminal
-#: src/application.rs:76
+#: src/application.rs:75
 msgid "COMMAND"
 msgstr "COMANDO"
 
 #. Translators: command-line option description
-#: src/application.rs:84
+#: src/application.rs:83
 msgid "Start new game of given size"
 msgstr "Inicia um novo jogo do tamanho dado"
 
 #. Translators: in the command-line options description, text to indicate the user should specify a size after '--size'
-#: src/application.rs:86
+#: src/application.rs:85
 msgid "SIZE"
 msgstr "TAMANHO"
 
 #. Translators: command-line option description
-#: src/application.rs:94
+#: src/application.rs:93
 msgid "Print release version and exit"
 msgstr "Exibe a versão de lançamento e sai"
 
-#: src/application.rs:211
+#: src/application.rs:210
 msgid "Size must be in the form COLSxROWS."
 msgstr "O tamanho deve estar na forma COLSxLINHAS."
 
@@ -305,162 +309,162 @@ msgstr "2048"
 
 #. Translators: button in the headerbar (with a mnemonic that appears pressing Alt)
 #. Translators: button in the "Congratulations" dialog that appears (with default settings) when you reach 2048 (with a mnemonic that appears pressing Alt)
-#: src/game_window.rs:116 src/game_window.rs:578
+#: src/game_window.rs:116 src/game_window.rs:582
 msgid "_New Game"
 msgstr "_Novo jogo"
 
 #. Translators: subtitle of the headerbar, when the user cannot move anymore
-#: src/game_window.rs:318
+#: src/game_window.rs:322
 msgid "Game Over"
 msgstr "Fim de jogo"
 
 #. Translators: entry in the hamburger menu
 #. Translators: entry in the hamburger menu, if the "Allow undo" option is set to true
-#: src/game_window.rs:425 src/game_window.rs:490
+#: src/game_window.rs:429 src/game_window.rs:494
 msgid "Undo"
 msgstr "Desfazer"
 
 #. Translators: entry in the hamburger menu
-#: src/game_window.rs:430
+#: src/game_window.rs:434
 msgid "Appearance"
 msgstr "Aparência"
 
 #. Translators: entry in the hamburger menu
-#: src/game_window.rs:435
+#: src/game_window.rs:439
 msgid "Spawn tiles"
 msgstr "Criação de peças"
 
 #. Translators: entry in the hamburger menu; a color theme
-#: src/game_window.rs:451
+#: src/game_window.rs:455
 msgid "Adwaita"
 msgstr "Adwaita"
 
 #. Translators: entry in the hamburger menu; a color theme
-#: src/game_window.rs:456
+#: src/game_window.rs:460
 msgid "Tango"
 msgstr "Tango"
 
 #. Translators: entry in the hamburger menu; a color theme
-#: src/game_window.rs:461
+#: src/game_window.rs:465
 msgid "Classic"
 msgstr "Clássico"
 
 #. Translators: entry in the hamburger menu; a spawn strategy
-#: src/game_window.rs:472
+#: src/game_window.rs:476
 msgid "Twos only"
 msgstr "Somente dois"
 
 #. Translators: entry in the hamburger menu; a spawn strategy
-#: src/game_window.rs:477
+#: src/game_window.rs:481
 msgid "Classic (twos and fours)"
 msgstr "Clássico (dois e quatro)"
 
 #. Translators: entry in the hamburger menu; opens a window showing best scores
-#: src/game_window.rs:501
+#: src/game_window.rs:505
 msgid "Scores"
 msgstr "Pontuações"
 
 #. Translators: menu entry
-#: src/game_window.rs:512
+#: src/game_window.rs:516
 msgid "Keyboard Shortcuts"
 msgstr "Atalhos de teclado"
 
 #. Translators: menu entry
-#: src/game_window.rs:517 src/game_window.rs:623
+#: src/game_window.rs:521 src/game_window.rs:630
 msgid "Help"
 msgstr "Ajuda"
 
 #. Translators: menu entry
-#: src/game_window.rs:522
+#: src/game_window.rs:526
 msgid "About 2048"
 msgstr "Sobre o 2048"
 
 #. Translators: on main window, entry of the menu when clicking on the "New Game" button
-#: src/game_window.rs:534
+#: src/game_window.rs:538
 msgid "3 × 3"
 msgstr "3 × 3"
 
 #. Translators: on main window, entry of the menu when clicking on the "New Game" button
-#: src/game_window.rs:540
+#: src/game_window.rs:544
 msgid "4 × 4"
 msgstr "4 × 4"
 
 #. Translators: on main window, entry of the menu when clicking on the "New Game" button
-#: src/game_window.rs:546
+#: src/game_window.rs:550
 msgid "5 × 5"
 msgstr "5 × 5"
 
 #. Translators: on main window, entry of the menu when clicking on the "New Game" button; appears only if the user has set rows and cols manually
-#: src/game_window.rs:555
+#: src/game_window.rs:559
 msgid "Custom"
 msgstr "Personalizado"
 
 #. Translators: title of the dialog that appears (with default settings) when you reach 2048
-#: src/game_window.rs:567
+#: src/game_window.rs:571
 msgid "Congratulations!"
 msgstr "﻿Parabéns!"
 
-#: src/game_window.rs:570
+#: src/game_window.rs:574
 msgid "You have obtained the %u tile for the first time!"
 msgstr "Você obteve o bloco %u bloco pela primeira vez!"
 
 #. Translators: button in the "Congratulations" dialog that appears (with default settings) when you reach 2048; the player can continue playing after reaching 2048 (with a mnemonic that appears pressing Alt)
-#: src/game_window.rs:583
+#: src/game_window.rs:587
 msgid "_Keep Playing"
 msgstr "_Continuar jogando"
 
 #. Translators: header of the shortcut section
-#: src/game_window.rs:595
+#: src/game_window.rs:599
 msgid "Game"
 msgstr "Jogo"
 
-#: src/game_window.rs:597
+#: src/game_window.rs:601
 msgid "Play with arrows"
 msgstr "Joga com setas"
 
-#: src/game_window.rs:600
+#: src/game_window.rs:604
 msgid "Play with WASD"
 msgstr "Joga com WASD"
 
-#: src/game_window.rs:602
+#: src/game_window.rs:606
 msgid "Play with VIM-style bindings"
 msgstr "Joga com combinações VIM-style"
 
 #. Translators: header of the shortcut section
-#: src/game_window.rs:608
+#: src/game_window.rs:612
 msgid "New Game"
 msgstr "Novo jogo"
 
-#: src/game_window.rs:610
+#: src/game_window.rs:614
 msgid "Choose a new game"
 msgstr "Escolhe um novo jogo"
 
-#: src/game_window.rs:614
+#: src/game_window.rs:618
 msgid "Start a new game"
 msgstr "Inicia um novo jogo"
 
 #. Translators: header of the shortcut section
-#: src/game_window.rs:620
+#: src/game_window.rs:624
 msgid "Generic"
 msgstr "Genérico"
 
-#: src/game_window.rs:621
+#: src/game_window.rs:625
 msgid "Toggle main menu"
 msgstr "Alterna o menu principal"
 
-#: src/game_window.rs:622
+#: src/game_window.rs:627
 msgid "Toggle fullscreen mode"
 msgstr "Alterna o modo tela cheia"
 
-#: src/game_window.rs:625
+#: src/game_window.rs:632
 msgid "Keyboard shortcuts"
 msgstr "Atalhos de teclado"
 
-#: src/game_window.rs:629
+#: src/game_window.rs:636
 msgid "About"
 msgstr "Sobre"
 
-#: src/game_window.rs:632
+#: src/game_window.rs:639
 msgid "Quit"
 msgstr "Sai"
 
