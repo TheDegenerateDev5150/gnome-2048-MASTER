@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gnome-2048 master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-2048/issues\n"
 "POT-Creation-Date: 2026-04-21 23:13+0000\n"
-"PO-Revision-Date: 2026-06-04 18:10+0200\n"
+"PO-Revision-Date: 2026-09-09 23:19+0200\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian Bokmål <nb@li.org>\n"
 "Language: nb\n"
@@ -36,27 +36,27 @@ msgstr "puslespill;"
 #. Translators: summary of a settings key, see 'dconf-editor /org/gnome/2048/window-width'
 #: data/org.gnome.TwentyFortyEight.gschema.xml:15
 msgid "Window width"
-msgstr ""
+msgstr "Vindubredde"
 
 #. Translators: description of a settings key, see 'dconf-editor /org/gnome/2048/window-width'
 #: data/org.gnome.TwentyFortyEight.gschema.xml:17
 msgid "Window width."
-msgstr ""
+msgstr "Vindubredde."
 
 #. Translators: summary of a settings key, see 'dconf-editor /org/gnome/2048/window-height'
 #: data/org.gnome.TwentyFortyEight.gschema.xml:22
 msgid "Window height"
-msgstr ""
+msgstr "Vinduhøyde"
 
 #. Translators: description of a settings key, see 'dconf-editor /org/gnome/2048/window-height'
 #: data/org.gnome.TwentyFortyEight.gschema.xml:24
 msgid "Window height."
-msgstr ""
+msgstr "Vinduhøyde."
 
 #. Translators: summary of a settings key, see 'dconf-editor /org/gnome/2048/window-maximized'
 #: data/org.gnome.TwentyFortyEight.gschema.xml:29
 msgid "Window maximized"
-msgstr ""
+msgstr "Vindu maksimert"
 
 #. Translators: description of a settings key, see 'dconf-editor /org/gnome/2048/window-maximized'
 #: data/org.gnome.TwentyFortyEight.gschema.xml:31
@@ -66,7 +66,7 @@ msgstr ""
 #. Translators: summary of a settings key, see 'dconf-editor /org/gnome/2048/rows'
 #: data/org.gnome.TwentyFortyEight.gschema.xml:37
 msgid "Number of rows"
-msgstr ""
+msgstr "Antall rader"
 
 #. Translators: description of a settings key, see 'dconf-editor /org/gnome/2048/rows'
 #: data/org.gnome.TwentyFortyEight.gschema.xml:39
@@ -76,7 +76,7 @@ msgstr ""
 #. Translators: summary of a settings key, see 'dconf-editor /org/gnome/2048/cols'
 #: data/org.gnome.TwentyFortyEight.gschema.xml:45
 msgid "Number of columns"
-msgstr ""
+msgstr "Antall kolonner"
 
 #. Translators: description of a settings key, see 'dconf-editor /org/gnome/2048/cols'
 #: data/org.gnome.TwentyFortyEight.gschema.xml:47
@@ -86,7 +86,7 @@ msgstr ""
 #. Translators: summary of a settings key, see 'dconf-editor /org/gnome/2048/target-value'
 #: data/org.gnome.TwentyFortyEight.gschema.xml:53
 msgid "Target value"
-msgstr ""
+msgstr "Målverdi"
 
 #. Translators: description of a settings key, see 'dconf-editor /org/gnome/2048/target-value'
 #: data/org.gnome.TwentyFortyEight.gschema.xml:55
@@ -158,7 +158,7 @@ msgid ""
 "Play the highly addictive 2048 game. 2048 is a clone of the popular single-"
 "player puzzle game. Gameplay consists of joining numbers in a grid and "
 "obtain the 2048 tile."
-msgstr ""
+msgstr "Spill det høyst vandedannende 2048-spillet. 2048 er en klone av det populære puslespillet for en spiller. Spillet består i å slå sammen tall i et rutenett og finne 2048-flisen."
 
 #: data/org.gnome.TwentyFortyEight.metainfo.xml.in:16
 msgid ""
@@ -185,6 +185,10 @@ msgstr ""
 #: data/org.gnome.TwentyFortyEight.metainfo.xml.in:36
 msgid "A running game"
 msgstr "Et løpespill"
+
+#: data/org.gnome.TwentyFortyEight.metainfo.xml.in:51
+msgid "Andrey Kutejko"
+msgstr "Andrey Kutejko"
 
 #. Translators: about dialog text; a introduction to the game
 #: src/about.rs:31
@@ -214,7 +218,7 @@ msgstr "Kjartan Maraas <kmaraas@gnome.org>"
 #. Translators: command-line option description
 #: src/application.rs:73
 msgid "Play in the terminal (see \"--cli=help\")"
-msgstr ""
+msgstr "Spill i terminalen (se «--cli=help»)"
 
 #. Translators: in the command-line options description, text to indicate the user should give a command after '--cli' for playing in the terminal
 #: src/application.rs:75
@@ -234,19 +238,19 @@ msgstr "STØRRELSE"
 #. Translators: command-line option description
 #: src/application.rs:93
 msgid "Print release version and exit"
-msgstr ""
+msgstr "Skriv ut versjon og avslutt"
 
 #: src/application.rs:210
 msgid "Size must be in the form COLSxROWS."
-msgstr ""
+msgstr "Størrelse må være på formen KOLxRAD."
 
 #: src/cli.rs:71
 msgid "Size can only be given for new games."
-msgstr ""
+msgstr "Størrelse kan kun oppgis for nye spill."
 
 #: src/cli.rs:92
 msgid "Cannot parse \"--cli\" command, aborting."
-msgstr ""
+msgstr "Kan ikke lese «--cli» kommando. Avbryter."
 
 #: src/cli.rs:125
 msgid "Game is finished, impossible to move."
@@ -300,7 +304,7 @@ msgstr "Utseende"
 #. Translators: entry in the hamburger menu
 #: src/game_window.rs:439
 msgid "Spawn tiles"
-msgstr ""
+msgstr "Lag fliser"
 
 #. Translators: entry in the hamburger menu; a color theme
 #: src/game_window.rs:455
@@ -439,7 +443,8 @@ msgstr "Avslutt"
 #: src/grid.rs:46
 msgid ""
 "Grid must have no more than 9 rows and columns and have at least 3 tiles"
-msgstr "Rutenettet kan ikke ha mer enn ni rader og kolonner og må ha minst tre fliser"
+msgstr ""
+"Rutenettet kan ikke ha mer enn ni rader og kolonner og må ha minst tre fliser"
 
 #: src/scores.rs:84
 msgctxt "Scores category"
